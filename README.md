@@ -25,6 +25,12 @@ A Python-based tool for converting PDF lecture slides into clean, organized Mark
 ```bash
 python convert.py "path/to/your/file.pdf"
 ```
+or 
+```bash
+python convert.py --watch
+```
+- The second method will run constantly and will convert every pdf file to markdown until process is stopped.
+
 3. Find the converted Markdown file in the same directory with `.md` extension
 
 ## Requirements
